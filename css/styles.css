@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0f0d;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  padding: 20px
+}
+
+h1 {
+  color: #ff6a00;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  /* margin-right: 10px; */
+}
+
+.form-container {
+
+}
+
+.form {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"]
+ {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  background-color: #0a0f0d;
+  color: white;
+}  
+
+.btn-submit {
+  width: calc(100% - 20px);
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ff6a00;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+  
+}
+
+.btn-submit:hover {
+  background-color: #e55d00;
+}
+
+.call-to-action {
+  background-color: #222;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.benefits {
+  background-color: #222;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.benefits h2 {
+  color: #ff6a00;
+  margin-bottom: 20px;
+}
+
+.benefits ul {
+  list-style: none;
+}
+
+.benefits li {
+  background-color: #333;
+  margin-bottom: 10px;
+  border-left: 5px solid #ff6a00;
+  padding: 10px;
+  border-radius: 5px;
+}
