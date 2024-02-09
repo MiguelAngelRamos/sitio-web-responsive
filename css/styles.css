@@ -27,16 +27,15 @@ h1 {
   margin-bottom: 20px;
   font-size: 2.5rem;
 }
+.product-image  {
+  margin-right: 15px;
+}
 
 .product-image img {
   width: 100%;
   height: auto;
   border-radius: 5px;
-  /* margin-right: 10px; */
-}
-
-.form-container {
-
+  
 }
 
 .form {
@@ -103,3 +102,20 @@ h1 {
   padding: 10px;
   border-radius: 5px;
 }
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.secondary-cta a {
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* FLEX BOX */
